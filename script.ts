@@ -47,6 +47,18 @@ const grape: fruits = {
   },
 };
 
+const blueberry: fruits = {
+  name: "Blueberry",
+  size: "small",
+  flavor: "sweet",
+  colors: Colors.BLUE,
+  print() {
+    console.log(`The fruit is ${this.name}, it is ${this.size} in size
+        and it is ${this.flavor}, it is color ${this.colors}.`);
+  },
+};
+
 banana.print();
 apple.print();
 grape.print();
+blueberry.print();

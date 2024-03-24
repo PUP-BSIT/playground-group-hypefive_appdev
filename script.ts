@@ -49,3 +49,4 @@ const grape: fruits = {
 
 banana.print();
 apple.print();
+grape.print();

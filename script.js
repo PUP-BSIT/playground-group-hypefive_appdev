@@ -6,7 +6,6 @@ var Colors;
     Colors["GREEN"] = "green";
     Colors["YELLOW"] = "yellow";
 })(Colors || (Colors = {}));
-
 var banana = {
     name: "Banana",
     size: "small",
@@ -16,7 +15,6 @@ var banana = {
         console.log("The fruit is ".concat(this.name, ", it is ").concat(this.size, " in size\n        and it is ").concat(this.flavor, ", it is color ").concat(this.colors, "."));
     },
 };
-
 var apple = {
     name: "Apple",
     size: "medium",
@@ -26,5 +24,15 @@ var apple = {
         console.log("The fruit is ".concat(this.name, ", it is ").concat(this.size, " in size\n        and it is ").concat(this.flavor, ", it is color ").concat(this.colors, "."));
     },
 };
+var grape = {
+    name: "Grapes",
+    size: "small",
+    flavor: "sweet",
+    colors: Colors.PURPLE,
+    print: function () {
+        console.log("The fruit is ".concat(this.name, ", it is ").concat(this.size, " in size\n        and it is ").concat(this.flavor, ", it is color ").concat(this.colors, "."));
+    },
+};
 banana.print();
 apple.print();
+grape.print();
